@@ -1,7 +1,7 @@
 AT+RST
 AT+CWMODE=1
 AT+CIPSNTPCFG=1,8,"cn.ntp.org.cn","ntp.sjtu.edu.cn"
-AT+CWJAP="iphone","1786611438"
+AT+CWJAP="name","password"//需要填入相应的局域网name和对应的password
 AT+MQTTUSERCFG=0,1,"NULL","esp826601s&k18yu9177Wp","8cf492c26c454c40135bdd3528f0ca370ae3a9dc7ed4bade3c95eb7f073f7005",0,0,""
 
 AT+MQTTCLIENTID=0,"k18yu9177Wp.esp826601s|securemode=2\,signmethod=hmacsha256\,timestamp=1716252117072|"
